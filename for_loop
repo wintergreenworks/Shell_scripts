@@ -1,0 +1,14 @@
+#!/bin/bash
+input=$1
+
+echo "My first parameter $input"
+for i in {1..$input}
+do
+   echo "Welcome $i times"
+done
+
+echo "Bash version ${BASH_VERSION}..."
+for i in {0..10..2}
+  do 
+     echo "Welcome $i times"
+ done

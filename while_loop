@@ -1,0 +1,11 @@
+#!/bin/bash
+counter=$1
+stop_w=$2
+factorial=1
+while [ $counter -gt $stop_w ]
+do
+   factorial=$(( $factorial * $counter ))
+   counter=$(( $counter - 1 ))
+done
+echo $factorial
+
